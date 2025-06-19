@@ -25,7 +25,7 @@ const FeedbackPage = ({ score, isMuted }) => {
   let stars = 0;
   let feedbackMessage = '';
   if (score > 12) {
-    rank = 'Cyber Hero';
+    rank = 'Cyber Warrior';
     stars = 3;
     feedbackMessage = "Good job! Your security awareness is top-tier.";
   } else if (score >= 10) {
